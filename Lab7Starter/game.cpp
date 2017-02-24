@@ -20,7 +20,7 @@
 
 
 Game::Game() : 
-	m_window{ sf::VideoMode{800, 480}, "SMFL Game" },	
+	m_window{ sf::VideoMode{800, 481}, "SMFL Game" },	
 	m_triangle{sf::Triangles},
 	m_vertexs { 
 		{ { 100,150 },CORNFLOWER_BLUE },
